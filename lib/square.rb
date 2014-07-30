@@ -5,12 +5,16 @@ class Square
     @side_length = all_side_length
   end
 
-  def length
+  def side
     @side_length
   end
 
-  def width
-    @side_length
+  def area_calc
+    @side_length**2
+  end
+
+  def perimeter_calc
+    @side_length * 4
   end
 
 end
